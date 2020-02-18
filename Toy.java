@@ -8,7 +8,7 @@ import java.text.DecimalFormat;
  * @author Ida Justh
  */
 
-public class toy { 		
+public class Toy { 		
 	/** cost for the plushie */
 	 final double PLUSHIE = 25.0;
 	 
@@ -31,7 +31,7 @@ public class toy {
 	DecimalFormat dollar = new DecimalFormat("#,##0.00");	//format cost
 	
 //		/** no-arg constructor */
-//	public toy()
+//	public Toy()
 //	{
 //		toy = "";
 //		cost = 0;
@@ -45,7 +45,7 @@ public class toy {
 		 * @param a  the age of the child
 		 * @param c  the cost to the cost of the toy requested
 		 */
-//	public toy(String t, int a, setCost)
+//	public Toy(String t, int a, setCost)
 //	{
 //		setToy(t);
 //		setAge(a);
