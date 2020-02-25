@@ -10,8 +10,8 @@ public class LoopPrompt {
 			
 			do {
 				Character.toUpperCase(
-					awn = JOptionPane.showInputDialog
-					("Aparently \"" + toy.getToy() + "\", correct?").charAt(0)
+					awn = JOptionPane.showInputDialog 
+					("Aparently \"" + toy.getToy() + "\" arn't marked age appropriate for " + toy.getAge + " year olds. Is this ok?").charAt(0)
 				);
 			} while (!valid(awn));
 			
